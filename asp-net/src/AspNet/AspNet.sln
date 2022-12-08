@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Authentication", "Authentication", "{FE367B29-1333-4BCB-BBFC-624E82CDD587}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Authentication.Bearer", "Authentication\Authentication.Bearer\Authentication.Bearer.csproj", "{160ED3CB-072E-4C31-BA3E-BA4FB4961295}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Caching", "Caching", "{9D3401D5-E4B3-4E96-8235-D792B7C200B6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Caching.Redis", "Caching\Caching.Redis\Caching.Redis.csproj", "{8A1AD9CE-3E76-4BE9-ABEE-F6858C67D564}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{160ED3CB-072E-4C31-BA3E-BA4FB4961295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{160ED3CB-072E-4C31-BA3E-BA4FB4961295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{160ED3CB-072E-4C31-BA3E-BA4FB4961295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{160ED3CB-072E-4C31-BA3E-BA4FB4961295}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A1AD9CE-3E76-4BE9-ABEE-F6858C67D564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A1AD9CE-3E76-4BE9-ABEE-F6858C67D564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A1AD9CE-3E76-4BE9-ABEE-F6858C67D564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A1AD9CE-3E76-4BE9-ABEE-F6858C67D564}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{160ED3CB-072E-4C31-BA3E-BA4FB4961295} = {FE367B29-1333-4BCB-BBFC-624E82CDD587}
+		{8A1AD9CE-3E76-4BE9-ABEE-F6858C67D564} = {9D3401D5-E4B3-4E96-8235-D792B7C200B6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {15E7C9D0-313D-43E8-A47E-1D1D9B2D4235}
+	EndGlobalSection
+EndGlobal
